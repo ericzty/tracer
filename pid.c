@@ -3,7 +3,7 @@
 #include <sys/syscall.h>
 #include <sys/time.h>
 
-#define NUM_CALLS 100000
+#define NUM_CALLS 1000000
 
 int main() {
     struct timeval start, end;
